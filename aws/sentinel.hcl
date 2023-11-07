@@ -20,3 +20,7 @@ module "tfplan-functions" {
 module "tfstate-functions" {
   source = "https://raw.githubusercontent.com/hashicorp/terraform-sentinel-policies/main/common-functions/tfstate-functions/tfstate-functions.sentinel"
 }
+
+module "tfrun-functions" {
+  source = "https://raw.githubusercontent.com/hashicorp/terraform-sentinel-policies/main/common-functions/tfrun-functions/tfrun-functions.sentinel"
+}
